@@ -19,6 +19,7 @@ const App = () => {
       <NavBar />
       <div className="container flex-grow-1">
         <div className="mt-5">
+          <h4>Hello 8-23-2021</h4>
           <Switch>
             <Route path="/" exact component={Home} />
             <ProtectedRoute path="/profile" component={Profile} />
